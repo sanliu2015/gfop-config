@@ -7,7 +7,7 @@ spring:
   redis:
     host: localhost
     port: 6379
-    password:123456
+    password: 123456
   http:
     multipart:
       max-file-size: 1000MB
@@ -16,5 +16,3 @@ spring:
 cache:
   redis:
     expiration: 3601
-
-
