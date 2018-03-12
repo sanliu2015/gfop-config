@@ -53,7 +53,7 @@ spring:
         
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
 mybatis-plus:
-  mapper-locations: classpath:/mapper/**/*Dao.xml
+  mapper-locations: classpath:/mapper/**/*Mapper.xml
   #实体扫描，多个package用逗号或者分号分隔,1个*代表1个目录
   typeAliasesPackage: com.ynjf.gfop.**.entity
   global-config:
